@@ -1,0 +1,76 @@
+/* Estilo general del calendario */ 
+.react-datepicker { 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+} 
+
+/* Contenedor del calendario */ 
+.react-datepicker__triangle { 
+  display: none; /* Ocultar el triángulo que señala al campo */ 
+} 
+
+.react-datepicker_week { 
+  padding: 0; 
+  margin: 0; 
+}
+
+.react-datepicker__current-month{
+  font-size: medium;
+  color:#ffffff;
+}
+
+/* Cabecera del calendario */ 
+.react-datepicker__header { 
+  background-color: #302929; /* Fondo oscuro para la cabecera */ 
+  color: #ffffff; /* Color de texto blanco */ 
+} 
+
+/* Días del mes */ 
+.react-datepicker__day { 
+  font-size: medium; /* Tamaño de fuente */ 
+  color: #ffffff; /* Color de texto de los días */ 
+  background-color: #333333; /* Color de fondo de los días */ 
+  border-radius: 0; /* Bordes redondeados */ 
+  margin: 0; /* Eliminar espacios entre botones */
+  width: 40px; /* Ancho fijo para cada día */
+  height: 40px; /* Altura fija para cada día */
+  display: inline-flex; /* Cambiar a inline-flex para mantener en fila */
+  align-items: center; /* Alinear verticalmente */
+  justify-content: center; /* Alinear horizontalmente */
+}
+
+/* Días de los nombres de la semana */ 
+.react-datepicker__day-name { 
+  font-size: medium; /* Tamaño de fuente */ 
+  color: #ffffff; /* Color de texto de los días */ 
+  border-radius: 0; /* Bordes redondeados */ 
+  margin: 0; /* Eliminar espacios entre botones */ 
+  width: 40px; /* Ancho fijo para cada día */
+  height: 40px; /* Altura fija para cada día */
+  display: inline-flex; /* Cambiar a inline-flex para mantener en fila */
+  align-items: center; /* Alinear verticalmente */
+  justify-content: center; /* Alinear horizontalmente */
+}
+
+/* Cambiar color al pasar el mouse sobre los días */ 
+.react-datepicker__day:hover { 
+  background-color: #12db1c; /* Color de fondo verde al pasar el mouse */ 
+} 
+
+/* Días seleccionados */ 
+.react-datepicker__day--selected { 
+  background-color: #12db1c; /* Color de fondo para el día seleccionado */ 
+  color: #ffffff; /* Color de texto para el día seleccionado */ 
+} 
+
+/* Días deshabilitados */ 
+.react-datepicker__day--disabled { 
+  background-color: #444444; /* Fondo gris para días deshabilitados */ 
+  color: #999999; /* Color de texto gris */ 
+} 
+
+/* Botón de navegación */ 
+.react-datepicker__navigation { 
+  background-color: transparent; /* Fondo transparente */ 
+  color: #ffffff; /* Color de texto blanco */ 
+  margin: 0; /* Eliminar espacios entre botones */ 
+} 
